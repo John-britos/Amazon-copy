@@ -69,11 +69,11 @@ document.querySelectorAll('.js-add-to-cart')
             });
 
             if(similarItem){
-                similarItem.quatity += 1;
+                similarItem.quantity += 1;
             }else{
                 cart.push({
                     productName: productName,
-                    quatity: 1
+                    quantity: 1
                 });
             }
             

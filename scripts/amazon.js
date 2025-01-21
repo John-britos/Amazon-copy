@@ -48,7 +48,6 @@ products.forEach((product) => {
             <img src="images/icons/checkmark.png">
             Added
           </div>
-
           <button class="add-to-cart-button button-primary js-add-to-cart"
           data-product-id="${product.id}">
             Add to Cart

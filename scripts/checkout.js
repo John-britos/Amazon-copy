@@ -1,5 +1,6 @@
 import { addToCart, cart } from "../data/cart.js";
 import { products } from "../data/products.js";
+import { toDecimal } from "./price-function.js";
 
 let cartSummaryHTML = '';
 cart.forEach((cartItem) => {
@@ -29,7 +30,7 @@ cartSummaryHTML +=
                 ${matchingProduct.name}
             </div>
             <div class="product-price">
-                $${(matchingProduct.priceCents / 100).toFixed(2)}
+                ${toDecimal(matchingProduct)}
             </div>
             <div class="product-quantity">
                 <span>

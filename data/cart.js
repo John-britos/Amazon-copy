@@ -23,4 +23,8 @@ export function addToCart (productId){
             quantity: quantity
         });
     }
+    console.log(quantitySelector);
+    console.log(cart);
+    console.log(productId);
+    
 }

@@ -136,21 +136,6 @@ export const products = [
     ]
   },
   {
-    id: "58b4fc92-e98c-42aa-8c55-b6b79996769a",
-    image: "images/products/knit-athletic-sneakers-gray.jpg",
-    name: "Waterproof Knit Athletic Sneakers - Gray",
-    rating: {
-      stars: 4,
-      count: 89
-    },
-    priceCents: 3390,
-    keywords: [
-      "shoes",
-      "running shoes",
-      "footwear"
-    ]
-  },
-  {
     id: "5968897c-4d27-4872-89f6-5bcb052746d7",
     image: "images/products/women-chiffon-beachwear-coverup-black.jpg",
     name: "Women's Chiffon Beachwear Cover Up - Black",
